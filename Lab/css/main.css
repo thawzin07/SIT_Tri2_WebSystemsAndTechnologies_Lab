@@ -1,0 +1,32 @@
+/* NavigationBar */
+.rounded_logo {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+#dogs h2 {
+    text-decoration: underline;
+}
+
+article img {
+    border: 2px solid #333;
+    padding: 2px;
+}
+
+figure figcaption { 
+    color: gray;
+    font-style: italic;
+    text-align: relative;
+}
+
+footer.container {
+  border-top: 1px solid #ccc;   /* top border */
+  text-align: center;           /* centered content */
+  font-style: italic;           /* italic text */
+  font-size: 0.9em;             /* slightly smaller font */
+  padding: 12px 0;
+  margin-top: 20px;
+}
+
