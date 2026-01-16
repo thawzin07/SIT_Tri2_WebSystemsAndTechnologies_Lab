@@ -6,7 +6,7 @@
     margin-left: 5px;
 }
 
-#dogs h2 {
+#dogs h2, #cats h2 {
     text-decoration: underline;
 }
 
