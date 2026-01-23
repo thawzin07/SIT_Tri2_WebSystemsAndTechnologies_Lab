@@ -7,25 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--Bootstrap JS-->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+        </script>
     <link rel="stylesheet" href="css/main.css">
-    </head>
+    
+</head>
 
 <body>
+    <script defer src="js/main.js"></script>
     <main class="container">
-
-        
         <nav class="navbar navbar-expand-sm bg-secondary" data-bs-theme="dark">
             <a class="navbar-brand" href="/">
                 <img class="rounded_logo" src="images/logo_bird.jpg" alt="Logo" />
             </a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#dogs">Dogs</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#cats">Cats</a>
-                </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dogs">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dogs">Dogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cats">Cats</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <header class="jumbotron text-center text-light bg-dark rounded-0">
             <h1 class="display-4">Welcome to World of Pets!</h1>
@@ -39,9 +53,10 @@
                 <article class="col-sm">
                     <h3>Poodles</h3>
                     <figure>
-                        <a href="images/poodle_large.jpg">
-                            <img src="images/poodle_small.jpg" alt="Poodle" title="View larger image...">
-                        </a>
+
+                        <img class="img-thumbnail" src="images/poodle_small.jpg" alt="Poodle"
+                            title="View larger image...">
+
                         <figcaption>Standard Poodle</figcaption>
                     </figure>
                     <p>
@@ -52,9 +67,9 @@
                 <article class="col-sm">
                     <h3>Chihuahua</h3>
                     <figure>
-                        <a href="images/chihuahua_large.jpg">
-                            <img src="images/chihuahua_small.jpg" alt="Poodle" title="View larger image...">
-                        </a>
+                        
+                            <img class="img-thumbnail" src="images/chihuahua_small.jpg" alt="Poodle" title="View larger image...">
+                        
                         <figcaption>Chihuahua</figcaption>
                     </figure>
                     <p>
@@ -71,9 +86,9 @@
                 <article class="col-sm">
                     <h3>Tobby</h3>
                     <figure>
-                        <a href="images/tabby_large.jpg">
-                            <img src="images/tabby_small.jpg" alt="Tabby" title="View larger image...">
-                        </a>
+     
+                            <img class="img-thumbnail" src="images/tabby_small.jpg" alt="Tabby" title="View larger image...">
+ 
                         <figcaption>Tabby Cat</figcaption>
                     </figure>
                     <p>
@@ -85,9 +100,9 @@
                 <article class="col-sm">
                     <h3>Calico</h3>
                     <figure>
-                        <a href="images/calico_large.jpg">
-                            <img src="images/calico_small.jpg" alt="Calico" title="View larger image...">
-                        </a>
+                        
+                            <img class="img-thumbnail" src="images/calico_small.jpg" alt="Calico" title="View larger image...">
+                       
                         <figcaption>Calico Cat</figcaption>
                     </figure>
                     <p>
